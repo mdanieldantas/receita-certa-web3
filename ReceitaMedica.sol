@@ -1,7 +1,7 @@
-// SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.20;
 
-// Contrato simples para registrar receitas médicas.
+// Contrato  para registrar receitas médicas.
 contract ReceitaMedica {
     // Quem criou o contrato.
     address public admin;
