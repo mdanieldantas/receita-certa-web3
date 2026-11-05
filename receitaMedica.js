@@ -56,4 +56,8 @@ function dispensarReceita(idReceita) {
 
   receita.dispensada = true;
   console.log(`Receita ${idReceita} dispensada.`);
-}
+}module.exports = {
+  cadastrarMedico,
+  emitirReceita,
+  dispensarReceita
+};
